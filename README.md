@@ -1,7 +1,7 @@
 # Design Patterns  
 
-* [1. Builder pattern](#1Builder_Pattern)
-* [2. Factory pattern](#2Factory_Pattern)
+* [1. Builder pattern](#1Builder-Pattern)
+* [2. Factory pattern](#2Factory-Pattern)
 
 ## 1.Builder Pattern
 Builder pattern aims to “Separate the construction of a complex object from its representation so that the same   
