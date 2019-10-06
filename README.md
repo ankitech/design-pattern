@@ -22,7 +22,7 @@
 16. [Iterator pattern](#16Iterator-Pattern)
 17. [Mediator pattern](#17Mediator-Pattern)
 18. [Memento pattern](#18Memento-Pattern)
-19. [Observer pattern](#19Observer-Factory-Pattern)
+19. [Observer pattern](#19Observer-Pattern)
 20. [State pattern](#20State-Pattern)
 21. [Strategy pattern](#21Strategy-Pattern)
 22. [Template pattern](#22Template-Pattern)
@@ -80,3 +80,39 @@ it is your call to decide how to copy existing object based on your business mod
 *UML diagram for the classes in code example: [src.main.java.prototype](https://github.com/ankitech/design-pattern/tree/master/src/main/java/prototype)
 
 ## 5.Singleton Pattern
+
+## 6.Adapter Pattern
+
+## 7.Bridge Pattern
+
+## 8.Composite Pattern
+
+## 9.Decorator Pattern
+
+## 10.Facade Pattern
+
+## 11.Flyweight Pattern
+
+## 12.Proxy Pattern
+
+## 13.Chain Of Responsibility Pattern
+
+## 14.Command Pattern
+
+## 15.Interpreter Pattern
+
+## 16.Iterator Pattern
+
+## 17.Mediator Pattern
+
+## 18.Memento Pattern
+
+## 19.Observer Pattern
+
+## 20.State Pattern
+
+## 21.Strategy Pattern
+
+## 22.Template Pattern
+
+## 23.Visitor Pattern
