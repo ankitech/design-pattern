@@ -29,9 +29,9 @@
 23. [Visitor pattern](#23Visitor-Pattern)
 
 ## 1.Builder Pattern
-Builder pattern aims to “Separate the construction of a complex object from its representation so that the same   
-construction process can create different representations.” It is used to construct a complex object step by step   
-and the final step will return the object. The process of constructing an object should be generic so that it can   
+**Builder pattern** aims to “Separate the construction of a complex object from its representation so that the same 
+construction process can create different representations.” It is used to construct a complex object step by step 
+and the final step will return the object. The process of constructing an object should be generic so that it can 
 be used to create different representations of the same object.  
 ![UML](https://media.geeksforgeeks.org/wp-content/uploads/uml-of-builedr.jpg)
   
@@ -80,6 +80,13 @@ it is your call to decide how to copy existing object based on your business mod
 *UML diagram for the classes in code example: [src.main.java.prototype](https://github.com/ankitech/design-pattern/tree/master/src/main/java/prototype)
 
 ## 5.Singleton Pattern
+The **singleton pattern** is one of the simplest design patterns. Sometimes we need to have only one instance of our class 
+for example a single DB connection shared by multiple objects as creating a separate DB connection for every object may 
+be costly. Similarly, there can be a single configuration manager or error manager in an application that handles 
+all problems instead of creating multiple managers._The singleton pattern is a design pattern that restricts the 
+instantiation of a class to one object._
+![singleton pattern class Diagram](https://github.com/ankitech/design-pattern/blob/master/src/main/java/singleton/singleton-class-diagram.png)  
+*UML diagram for the classes in code example: [src.main.java.singleton](https://github.com/ankitech/design-pattern/tree/master/src/main/java/singleton)
 
 ## 6.Adapter Pattern
 
