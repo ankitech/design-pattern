@@ -1,10 +1,32 @@
 # Design Patterns  
++ Creational
+1. [Builder pattern](#1Builder-Pattern)
+2. [Factory pattern](#2Factory-Pattern)
+3. [Abstract Factory pattern](#3Abstract-Factory-Pattern)
+4. [Prototype pattern](#4Prototype-Pattern)
+5. [Singleton pattern](#5Singleton-Pattern)
 
-* [1. Builder pattern](#1Builder-Pattern)
-* [2. Factory pattern](#2Factory-Pattern)
-* [3. Abstract Factory pattern](#3Abstract-Factory-Pattern)
-* [4. Prototype pattern](#4Prototype-Pattern)
-* [5. Singleton pattern](#5Singleton-Pattern)
++ Structural
+6. [Adapter pattern](#6Adapter-Pattern)
+7. [Bridge pattern](#7Bridge-Pattern)
+8. [Composite pattern](#8Composite-Pattern)
+9. [Decorator pattern](#9Decorator-Pattern)
+10. [Facade pattern](#10Facade-Pattern)
+11. [Flyweight pattern](#11Flyweight-Pattern)
+12. [Proxy pattern](#12Proxy-Pattern)
+
++ Behavioral
+13. [Chain of responsibility pattern](#13Chain-Of-Responsibility-Pattern)
+14. [Command pattern](#14Command-Pattern)
+15. [Interpreter pattern](#15Interpreter-Pattern)
+16. [Iterator pattern](#16Iterator-Pattern)
+17. [Mediator pattern](#17Mediator-Pattern)
+18. [Memento pattern](#18Memento-Pattern)
+19. [Observer pattern](#19Observer-Factory-Pattern)
+20. [State pattern](#20State-Pattern)
+21. [Strategy pattern](#21Strategy-Pattern)
+22. [Template pattern](#22Template-Pattern)
+23. [Visitor pattern](#23Visitor-Pattern)
 
 ## 1.Builder Pattern
 Builder pattern aims to “Separate the construction of a complex object from its representation so that the same   
