@@ -90,6 +90,15 @@ instantiation of a class to one object._
 UML diagram for the classes in code example: [src.main.java.singleton](https://github.com/ankitech/design-pattern/tree/master/src/main/java/singleton)
 
 ## 6.Adapter Pattern
+The **adapter pattern** convert the interface of a class into another interface clients expect. Adapter lets 
+classes work together that couldn’t otherwise because of incompatible interfaces. The client sees only the target 
+interface and not the adapter. The adapter implements the target interface. Adapter delegates all requests to Adaptee.
+For example consider a USB to Ethernet adapter. We need this when we have an Ethernet interface on one end and 
+USB on the other. Since they are incompatible with each other. we use an adapter that converts one to other.
+![UML](https://media.geeksforgeeks.org/wp-content/uploads/classDiagram.jpg)
+
+![Adapter pattern class Diagram](https://github.com/ankitech/design-pattern/blob/master/src/main/java/adapter/adapter-class-diagram.png)  
+UML diagram for the classes in code example: [src.main.java.adapter](https://github.com/ankitech/design-pattern/tree/master/src/main/java/adapter)
 
 ## 7.Bridge Pattern
 
