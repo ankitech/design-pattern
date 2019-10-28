@@ -1,32 +1,32 @@
 # Design Patterns  
 + Creational
-1. [Builder pattern](#1Builder-Pattern)
-2. [Factory pattern](#2Factory-Pattern)
-3. [Abstract Factory pattern](#3Abstract-Factory-Pattern)
-4. [Prototype pattern](#4Prototype-Pattern)
-5. [Singleton pattern](#5Singleton-Pattern)
+1. [Builder pattern](#1builder-pattern)
+2. [Factory pattern](#2factory-pattern)
+3. [Abstract Factory pattern](#3abstract-factory-pattern)
+4. [Prototype pattern](#4prototype-pattern)
+5. [Singleton pattern](#5singleton-pattern)
 
 + Structural
-6. [Adapter pattern](#6Adapter-Pattern)
-7. [Bridge pattern](#7Bridge-Pattern)
-8. [Composite pattern](#8Composite-Pattern)
-9. [Decorator pattern](#9Decorator-Pattern)
-10. [Facade pattern](#10Facade-Pattern)
-11. [Flyweight pattern](#11Flyweight-Pattern)
-12. [Proxy pattern](#12Proxy-Pattern)
+6. [Adapter pattern](#6adapter-pattern)
+7. [Bridge pattern](#7bridge-pattern)
+8. [Composite pattern](#8composite-pattern)
+9. [Decorator pattern](#9decorator-pattern)
+10. [Facade pattern](#10facade-pattern)
+11. [Flyweight pattern](#11flyweight-pattern)
+12. [Proxy pattern](#12proxy-pattern)
 
 + Behavioral
-13. [Chain of responsibility pattern](#13Chain-Of-Responsibility-Pattern)
-14. [Command pattern](#14Command-Pattern)
-15. [Interpreter pattern](#15Interpreter-Pattern)
-16. [Iterator pattern](#16Iterator-Pattern)
-17. [Mediator pattern](#17Mediator-Pattern)
-18. [Memento pattern](#18Memento-Pattern)
-19. [Observer pattern](#19Observer-Pattern)
-20. [State pattern](#20State-Pattern)
-21. [Strategy pattern](#21Strategy-Pattern)
-22. [Template pattern](#22Template-Pattern)
-23. [Visitor pattern](#23Visitor-Pattern)
+13. [Chain of responsibility pattern](#13chain-of-responsibility-pattern)
+14. [Command pattern](#14command-pattern)
+15. [Interpreter pattern](#15interpreter-pattern)
+16. [Iterator pattern](#16iterator-pattern)
+17. [Mediator pattern](#17mediator-pattern)
+18. [Memento pattern](#18memento-pattern)
+19. [Observer pattern](#19observer-pattern)
+20. [State pattern](#20state-pattern)
+21. [Strategy pattern](#21strategy-pattern)
+22. [Template pattern](#22template-pattern)
+23. [Visitor pattern](#23visitor-pattern)
 
 ## 1.Builder Pattern
 **Builder pattern** aims to “Separate the construction of a complex object from its representation so that the same 
@@ -118,6 +118,14 @@ This is a design mechanism that encapsulates an implementation class inside of a
 UML diagram for the classes in code example: [src.main.java.bridge](https://github.com/ankitech/design-pattern/tree/master/src/main/java/bridge)
 
 ## 8.Composite Pattern
+_Composite pattern_ is a partitioning design pattern and describes a group of objects that is treated the same way as a single instance of the same type of object. The intent of a composite is to “compose” objects into tree structures to represent part-whole hierarchies. It allows you to have a tree structure and ask each node in the tree structure to perform a task.
+
+As described by Gof, **_“Compose objects into tree structure to represent part-whole hierarchies. Composite lets client treat individual objects and compositions of objects uniformly”_**.
+When dealing with Tree-structured data, programmers often have to discriminate between a leaf-node and a branch. This makes code more complex, and therefore, error prone. The solution is an interface that allows treating complex and primitive objects uniformly.
+In object-oriented programming, a composite is an object designed as a composition of one-or-more similar objects, all exhibiting similar functionality. This is known as a “has-a” relationship between objects.
+The key concept is that you can manipulate a single instance of the object just as you would manipulate a group of them. The operations you can perform on all the composite objects often have a least common denominator relationship.
+![Bridge pattern class Diagram](https://github.com/ankitech/design-pattern/blob/master/src/main/java/composite/composite-class-diagram.png)  
+UML diagram for the classes in code example: [src.main.java.composite](https://github.com/ankitech/design-pattern/tree/master/src/main/java/composite)
 
 ## 9.Decorator Pattern
 
