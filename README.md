@@ -134,6 +134,7 @@ In object-oriented programming, a composite is an object designed as a compositi
 all exhibiting similar functionality. This is known as a “has-a” relationship between objects.
 The key concept is that you can manipulate a single instance of the object just as you would manipulate a group of them. 
 The operations you can perform on all the composite objects often have a least common denominator relationship.
+
 ![Composite pattern class Diagram](https://github.com/ankitech/design-pattern/blob/master/src/main/java/composite/composite-class-diagram.png)  
 UML diagram for the classes in code example: [src.main.java.composite](https://github.com/ankitech/design-pattern/tree/master/src/main/java/composite)
 
@@ -144,6 +145,7 @@ This pattern creates a decorator class which wraps the original class and provid
 class methods signature intact.
 We are demonstrating the use of decorator pattern via following example in which we will decorate a shape with some 
 color without alter shape class.
+
 ![Decorator pattern class Diagram](https://github.com/ankitech/design-pattern/blob/master/src/main/java/decorator/decorator-class-diagram.png)  
 UML diagram for the classes in code example: [src.main.java.decorator](https://github.com/ankitech/design-pattern/tree/master/src/main/java/decorator)
 
