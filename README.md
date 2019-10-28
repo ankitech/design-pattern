@@ -108,9 +108,12 @@ There are 2 parts in Bridge design pattern :
 
 This is a design mechanism that encapsulates an implementation class inside of an interface class.
 
-- The bridge pattern allows the Abstraction and the Implementation to be developed independently and the client code can access only the Abstraction part without being concerned about the Implementation part.
+- The bridge pattern allows the Abstraction and the Implementation to be developed independently and the client code 
+can access only the Abstraction part without being concerned about the Implementation part.
 - The abstraction is an interface or abstract class and the implementor is also an interface or abstract class.
-- The abstraction contains a reference to the implementor. Children of the abstraction are referred to as refined abstractions, and children of the implementor are concrete implementors. Since we can change the reference to the implementor in the abstraction, we are able to change the abstraction’s implementor at run-time. Changes to the implementor do not affect client code.
+- The abstraction contains a reference to the implementor. Children of the abstraction are referred to as refined 
+bstractions, and children of the implementor are concrete implementors. Since we can change the reference to the implementor 
+in the abstraction, we are able to change the abstraction’s implementor at run-time. Changes to the implementor do not affect client code.
 - It increases the loose coupling between class abstraction and it’s implementation.
 ![UML](https://media.geeksforgeeks.org/wp-content/uploads/Bridge_Design.png)
 
@@ -118,16 +121,31 @@ This is a design mechanism that encapsulates an implementation class inside of a
 UML diagram for the classes in code example: [src.main.java.bridge](https://github.com/ankitech/design-pattern/tree/master/src/main/java/bridge)
 
 ## 8.Composite Pattern
-_Composite pattern_ is a partitioning design pattern and describes a group of objects that is treated the same way as a single instance of the same type of object. The intent of a composite is to “compose” objects into tree structures to represent part-whole hierarchies. It allows you to have a tree structure and ask each node in the tree structure to perform a task.
+_Composite pattern_ is a partitioning design pattern and describes a group of objects that is treated the same way as 
+a single instance of the same type of object. The intent of a composite is to “compose” objects into tree structures 
+to represent part-whole hierarchies. It allows you to have a tree structure and ask each node in the tree structure to perform a task.
 
-As described by Gof, **_“Compose objects into tree structure to represent part-whole hierarchies. Composite lets client treat individual objects and compositions of objects uniformly”_**.
-When dealing with Tree-structured data, programmers often have to discriminate between a leaf-node and a branch. This makes code more complex, and therefore, error prone. The solution is an interface that allows treating complex and primitive objects uniformly.
-In object-oriented programming, a composite is an object designed as a composition of one-or-more similar objects, all exhibiting similar functionality. This is known as a “has-a” relationship between objects.
-The key concept is that you can manipulate a single instance of the object just as you would manipulate a group of them. The operations you can perform on all the composite objects often have a least common denominator relationship.
-![Bridge pattern class Diagram](https://github.com/ankitech/design-pattern/blob/master/src/main/java/composite/composite-class-diagram.png)  
+As described by Gof, **_“Compose objects into tree structure to represent part-whole hierarchies. Composite lets 
+client treat individual objects and compositions of objects uniformly”_**.
+When dealing with Tree-structured data, programmers often have to discriminate between a leaf-node and a branch. 
+This makes code more complex, and therefore, error prone. The solution is an interface that allows treating complex 
+nd primitive objects uniformly.
+In object-oriented programming, a composite is an object designed as a composition of one-or-more similar objects, 
+all exhibiting similar functionality. This is known as a “has-a” relationship between objects.
+The key concept is that you can manipulate a single instance of the object just as you would manipulate a group of them. 
+The operations you can perform on all the composite objects often have a least common denominator relationship.
+![Composite pattern class Diagram](https://github.com/ankitech/design-pattern/blob/master/src/main/java/composite/composite-class-diagram.png)  
 UML diagram for the classes in code example: [src.main.java.composite](https://github.com/ankitech/design-pattern/tree/master/src/main/java/composite)
 
 ## 9.Decorator Pattern
+_Decorator pattern_ allows a user to add new functionality to an existing object without altering its structure. 
+This type of design pattern comes under structural pattern as this pattern acts as a wrapper to existing class.
+This pattern creates a decorator class which wraps the original class and provides additional functionality keeping 
+class methods signature intact.
+We are demonstrating the use of decorator pattern via following example in which we will decorate a shape with some 
+color without alter shape class.
+![Decorator pattern class Diagram](https://github.com/ankitech/design-pattern/blob/master/src/main/java/decorator/decorator-class-diagram.png)  
+UML diagram for the classes in code example: [src.main.java.decorator](https://github.com/ankitech/design-pattern/tree/master/src/main/java/decorator)
 
 ## 10.Facade Pattern
 
